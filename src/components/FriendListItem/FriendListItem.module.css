@@ -1,0 +1,20 @@
+.FriendItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.friendName {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.17;
+}
+
+.statusOnline {
+  color: green;
+}
+
+.statusOffline {
+  color: red;
+}
